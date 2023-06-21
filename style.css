@@ -119,3 +119,33 @@ div.row {
 .col-sm-4 {
   padding: 20px;
 }
+
+
+@media (max-width: 390px) {
+  h1{
+    font-size: 40px;
+  }
+
+  h2{
+  font-size: 36px;
+}
+  
+h3{
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  button{
+    display: block;
+    text-align: center;
+  }
+
+  .col-md-6 img{
+  display: none;
+}
+
+.email-link{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+}
